@@ -20,4 +20,8 @@ export class AppService {
     lastname: 'Choochan',
     age: 18};
   }
+
+  getGithub(): string {
+    return 'tast Git and Github using';
+  }
 }
