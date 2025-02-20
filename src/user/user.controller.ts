@@ -11,12 +11,12 @@ export class UserController {
     
         
     @Get('/shared')
-    shareFunction():string{
+    ShareFunction():string{
         return this.utilityService.sharefunc();
     }
 
     @Get('/global')
     globalFunction() : string{
-        return this.GlobalHelperService.grobalfunc();
+        return this.GlobalHelperService.Grobalfunc();
     }
 }

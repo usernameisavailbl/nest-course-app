@@ -17,6 +17,6 @@ export class ChatController {
 
         @Get('/global')
     globalFunction() : string{
-        return this.GlobalHelperService.grobalfunc();
+        return this.GlobalHelperService.Grobalfunc();
     }
 }
