@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
@@ -13,15 +14,20 @@ export class AppService {
   getInfo(): string {
     return 'Hello, I am Natdanai Choochan, 18 years old';
   }
-  
+
   getJSON() {
     return {
-    name: 'Natdanai',
-    lastname: 'Choochan',
-    age: 18};
+      name: 'Natdanai',
+      lastname: 'Choochan',
+      age: 18,
+    };
   }
 
   getGithub(): string {
     return 'tast Git and Github using';
+  }
+
+  getpostman(): string {
+    return 'we use postman';
   }
 }
